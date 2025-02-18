@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+/* ::selection {
+  color: black;
+  background-color: #ffff00b9;
+} */
+
+.lightie {
+  --text_first: 0, 0, 0;
+  --text_second: 128, 128, 128;
+  --bg_first: 255, 255, 255;
+}
+
+.darkie {
+  --text_first: 203, 213, 225;
+  --text_second: 148, 163, 184;
+  --bg_first: 15, 23, 42;
+}
+
+.yoki {
+  border: 2px solid red;
+}
+
+.yokii {
+  border: 2px solid blue;
+}
+
+/*blue-> #0d6efd;
+ yellow-> #ffc107 */

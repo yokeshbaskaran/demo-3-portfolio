@@ -1,0 +1,25 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "title": "Todo list",
+            "desc": "Lorem ipsum dolor sit amet consecteturadipisicing elitOfficiaiusto quibusdam iure quisquam odit ex laudantium",
+            "linkURL": "/todo-app",
+            "image": "/weather.jpg"
+        },
+        {
+            "id": 1,
+            "title": "Weather app",
+            "desc": "Lorem ipsum dolor sit amet consecteturadipisicing elitOfficiaiusto quibusdam iure quisquam odit ex laudantium",
+            "linkURL": "/weatherApp",
+            "image": "/weather.jpg"
+        },
+        {
+            "id": 2,
+            "title": "game app",
+            "desc": "Lorem ipsum dolor sit amet consecteturadipisicing elitOfficiaiusto quibusdam iure quisquam odit ex laudantium",
+            "linkURL": "/games-App",
+            "image": "/weather.jpg"
+        }
+    ]
+}
